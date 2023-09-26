@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
+    <link rel="stylesheet" href="./diseño.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <div class="encabezado">
+        <h1>DojoWeather</h1>
+        <div class="opcions">
+            <h3 onclick="mostrarmensaje(this)">Burbank</h3>
+            <h3 onclick="mostrarmensaje(this)">Chicago</h3>
+            <h3 onclick="mostrarmensaje(this)">Dallas</h3>
+        </div>
+    </div>
+</main>
+    <div class="title">
+        <h1>San Jose</h1>
+        <div class="temperature">
+            <p>Show temperature in</p>
+            <select onchange="cambiartemperaturas(this)" class="selectemp">
+                <option value="c" selected>°C</option>
+                <option value="f">°F</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="cuerpo">
+        <div class="cuadros">
+            <h2>Today</h2>
+            <img class="imgs" src="assets/some_rain.png" alt="some rain img">
+            <h3>some rain</h3>
+            <div class="temperaturas">
+                <p id="grados" class="rojo">24</p><p id="grados"class="azul">18</p>
+            </div>
+        </div>
+        <div class="cuadros">
+            <h2>Tomorrow</h2>
+            <img class="imgs" src="assets/some_sun.png" alt="some rain img">
+            <h3>some sun</h3>
+            <div class="temperaturas">
+                <p id="grados" class="rojo">27</p><p id="grados"class="azul">19</p>
+            </div>
+        </div>
+        <div class="cuadros">
+            <h2>Friday</h2>
+            <img class="imgs" src="assets/some_clouds.png" alt="some rain img">
+            <h3>some clouds</h3>
+            <div class="temperaturas">
+                <p id="grados"class="rojo">21</p><p id="grados" class="azul">16</p>
+            </div>
+        </div>
+        <div class="cuadros">
+            <h2>Saturday</h2>
+            <img class="imgs" src="assets/some_sun.png" alt="some rain img">
+            <h3>some sun</h3>
+            <div class="temperaturas">
+                <p id="grados"class="rojo">26</p><p id="grados"class="azul">21</p>
+            </div>
+        </div>
+
+        <div class="cookies">
+            <img src="assets/cookie.png" alt="cookie">
+            <div class="mensaje">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <a href="#"> Read more...</a> </p>
+            </div>
+            <div>
+                <button onclick="quitarcookie(this)" class="btn">I Accept</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

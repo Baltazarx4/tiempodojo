@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado{
+    display: flex;
+    background-color: rgb(147, 176, 255);
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -10px;
+    margin-inline: -15px;
+}
+.opcions{
+    display: flex;
+    
+}
+.opcions h3{
+    margin: 30px;
+    font-size: 23px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid black ;
+    width: 55%;
+    margin-left: 22%;
+}
+.temperature{
+    display: flex;
+    align-items: center;
+}
+.temperature p{
+    margin-right: 20px;
+}
+.selecttemp{
+    width: 40px;
+    height: 40px;
+}
+
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+.cuadros{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.imgs{
+    width: 150px;
+    border-radius: 50%;
+}
+.temperaturas{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+.rojo{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.azul{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cookies{
+    display: flex;
+    border: 2px solid black;
+    background-color: gainsboro;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    position: fixed;
+    bottom: 10px;
+}
+.btn{
+    background-color: rgb(140, 179, 251);
+}
